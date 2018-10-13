@@ -1,0 +1,332 @@
+.wrapper .nav-user .icon-user, .wrapper .nav-user .caret {
+    top: -4px;
+    position: inherit
+}
+.wrapper .nav-user .username{
+    max-width: 60px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.find_location, .find_map{
+	width: 121px;
+    margin: 0px 1px;
+}
+
+.btn-group.my-button {
+    margin: 0px 1px;
+}
+
+.btn-success:hover {
+    border-color: #4cae4c;
+}
+
+#processingIcon, #processingIconLightbox {
+	border: 1px solid #cccccc;
+	background-color:#ffffff;
+	padding: 10px;
+	position: fixed;
+	top: 48%;
+	left: 45%;
+	z-index: 20000;
+	font-size: 15px;
+}
+#processingBackground, #processingBackgroundLightbox{
+   	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 19990;
+}
+.spinner{
+	display: none;
+}
+.my-areas{
+	box-shadow: none;
+}
+.group-action .btn.btn-sm{
+   padding: 5px 5px;
+}
+.no-width {
+    border-radius: 0
+}
+/*User - Begin*/
+.password-code {
+    margin-bottom: 10px;
+}
+
+.list-user.list-table tbody>tr>td>span.delete-user {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+.list-table tbody>tr>td:last-child>a.edit-user, .list-table tbody>tr>td:last-child>.view-salesman {
+    position: absolute;
+    right: 26px;
+    top: 5px;
+}
+.list-user.list-table tbody>tr>td>span.password-user {
+    position: absolute;
+    right: 46px;
+    top: 5px;
+}
+
+.create-user-form .chosen-container-multi .search-choice-close {
+    display: block !important;
+}
+/*User - End*/
+
+/*Call record - Begin*/
+.REC0100 .wrapper .main-container .wrapper-container .content
+{
+    padding-left:0px
+}
+.REC0100 .call-record table#product-group-list tbody tr td{
+    cursor: pointer;
+}
+.REC0100 .call-record .group-question {
+    padding: 10px;
+}
+.REC0100 .call-record .group-question #list-question{
+    width: 100%;
+}
+
+.REC0100 .call-record .group-question #list-question .dd-list li.dd3-item span {
+    cursor: pointer;
+    position: absolute;
+    margin: 16.5px 0 0 8px;
+    opacity: 0.2;
+}
+.REC0100 .call-record .group-question #list-question .dd-list li.dd3-item span:hover {
+    opacity: 1;
+}
+.REC0100 .call-record .group-question #list-question .dd-list li.dd3-item textarea,
+.REC0100 .dd-dragel li.dd3-item textarea{
+    width: 90%;
+    height: 46px;
+    padding-left: 35px;
+    resize: vertical;
+}
+
+.REC0100 .call-record .group-question #list-question .dd-list li.dd3-item .dd3-handle,
+.REC0100 .dd-dragel li.dd3-item .dd3-handle
+{
+    height: 46px;
+}
+
+.REC0100 .call-record .group-question #list-question .dd-list li.dd3-item .dd3-handle:before,
+.REC0100 .dd-dragel li.dd3-item .dd3-handle:before
+{
+    padding-top: 8px;
+}
+
+.REC0230 .call-record-answer {
+    font-size: 12px;
+}
+.REC0230 .call-record-answer > h5, .STO0523 .detail-answer > h5 {
+    border-top: 1px solid #02759f;
+    border-left: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0,0,0,0.2);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.REC0230 .call-record-answer > div, .STO0523 .detail-answer > div {
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.REC0230 .call-record-answer .call-record-comment {
+    margin: 5px 0 15px;
+    font-size:14px;
+}
+
+.REC0230 .call-record-answer .call-record-answer-item {
+    margin: 10px 0;
+}
+.REC0230 .call-record-answer .call-record-answer-item .divider, .STO0523 .detail-answer > div p.divider{
+    height: 1px;
+    margin: 10px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+/*Call record - End*/
+
+/*Store - Begin*/
+.list-store-search {
+    margin-bottom: 10px;
+}
+.store-staff-list {
+    font-size: 13px;
+}
+.STO0500 .salesman-list {
+    max-height: 300px;
+    overflow: auto;
+    margin-top: 10px;
+}
+/*Store - End*/
+
+/*MR - Begin*/
+.list-user.list-table tbody>tr>td>span.delete-mr {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+.list-table tbody>tr>td:last-child>span.active-mr {
+    position: absolute;
+    right: 26px;
+    top: 7px;
+}
+/*MR - End*/
+
+/*Dashboard - Begin*/
+.DAS0100 table.statistic-loc tbody tr {cursor: pointer}
+.das-list-date h3{
+    font-size: 18px;
+}
+.list-table tbody>tr>td>span.delete-product {
+    top: 0px;
+    right: 0px;
+}
+.list-table tbody>tr>td:last-child>span.edit-product {
+    position: absolute;
+    top: 0px;
+}
+
+.das-list-img {
+    list-style-type: none;
+}
+
+.das-list-img li h5 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.das-list-schedule .list-table tbody>tr>td ,.das-list-schedule .list-table tbody>tr:hover>td {
+    background:transparent !important
+}
+
+.das-list-schedule {
+    margin: 0 30px;
+}
+.das-paging.paging {
+    padding: 30px !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-1, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-1:hover {
+    background: url("../img/type_1.png") no-repeat !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-2, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-2:hover {
+    background: url("../img/type_2.png") no-repeat !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-3, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-3:hover {
+    background: url("../img/type_3.png") no-repeat !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-4, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-4:hover {
+    background: url("../img/type_4.png") no-repeat !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-5, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-5:hover {
+    background: url("../img/type_5.png") no-repeat !important;
+}
+.das-list-schedule .list-table tbody>tr td.das-type-schedule-6, .das-list-schedule .list-table tbody>tr:hover td.das-type-schedule-6:hover {
+    background: url("../img/type_6.png") no-repeat !important;
+}
+
+.medicine_type_item span {
+    cursor: pointer;
+}
+/*Dashboard - End*/
+
+.choose-file-custom{
+    background-color: #e7e7e7 !important;
+    margin-top: 0;
+    width: 140px;
+}
+
+.btn.btn-sm{
+    padding: 5px 10px !important;
+}
+
+.my-areas-search{
+    margin-top: 2px;
+}
+.my-areas-icon b{
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url('../img/chosen-sprite.png') no-repeat 0px 2px;
+}
+.my-areas-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 18px;
+  height: 100%;
+  z-index: 0;
+}
+.open .my-areas-icon b {
+  background-position: -18px 2px;
+}
+.width-200{
+    width: 200px !important;
+}
+.width-180{
+    width: 180px !important;
+}
+.add-question{
+	margin-top:-21px;
+}
+#coachingStartday, #coachingEndday{
+	width:200px;
+}
+.checkbox-answer{
+	width:20px !important;
+	margin-top:10px !important;
+}
+.kpi-edit{
+	width:100%;
+}
+.kpi-edit tr{
+	 line-height: 40px;
+}
+.kpi-edit tr td span{
+	 float: left; 
+	 width: 115px;
+}
+.bootstrap-datetimepicker-widget .datepicker{
+	display:inline;
+}
+.input-append{
+	display: inline;
+    margin-left: 20px;
+    width: 208px;
+}
+.kpi-edit tr td input{
+	 width: 70px;
+}
+
+.delete-input{
+	margin-top: 10px; 
+	margin-left: 10px;
+	cursor:pointer;
+}
+.condition-search > div {
+    padding-bottom: 10px;
+}
+.password-field > input {
+    margin-bottom: 8px;
+}
+.panel-title {
+    font-size: 14px;
+}
+
+.tab-content .tabs ul li {
+    font-size: 15px;
+}
